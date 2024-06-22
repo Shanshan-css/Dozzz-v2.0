@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "339089894413",
+    "project_id": "snoozy4-54002",
+    "storage_bucket": "snoozy4-54002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339089894413:android:56c1d610d3485b5d077944",
+        "android_client_info": {
+          "package_name": "com.example.speecktotext2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339089894413-17r6d3grob4mcps5qtp37d85ouespssb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjWz_5cRNasTxjOCqBw4cDmxNvKD9BiVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339089894413-17r6d3grob4mcps5qtp37d85ouespssb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

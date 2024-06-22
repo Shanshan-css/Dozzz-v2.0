@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Congrats"
+    tools:ignore="ExtraText">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="160dp"
+        tools:ignore="ExtraText">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerInParent="true"
+            android:foregroundGravity="center"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:id="@+id/congrats"
+            app:lottie_rawRes="@raw/congrats"
+            android:elevation="5dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginEnd="120dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Thanks!" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
